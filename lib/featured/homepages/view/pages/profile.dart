@@ -2,9 +2,11 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:photoprofile/featured/homepages/model/text_service.dart';
+import 'package:photoprofile/featured/homepages/view/pages/contact/contact_page.dart';
 import 'package:photoprofile/featured/homepages/view/widgets/colors_cust.dart';
 import 'package:photoprofile/featured/homepages/view/widgets/container_cust.dart';
 import 'package:photoprofile/featured/homepages/view/widgets/details_service.dart';
+import 'package:photoprofile/featured/homepages/view/widgets/skill_sec.dart';
 
 class Profile extends StatelessWidget {
   const Profile({super.key});
@@ -167,6 +169,38 @@ class Profile extends StatelessWidget {
                 SizedBox(
                   height: 20,
                  ),
+                //  SkillProgressBar(),
+                SkillSec(),
+                SizedBox(
+                  height: 20,
+                ),
+                Stack(
+                alignment: Alignment.center,
+                children: [
+                  Text("CONTACT",
+                style: TextStyle(
+                  fontSize: 71,
+                  fontWeight: FontWeight.bold,
+                  color: const Color.fromARGB(255, 90, 85, 79))),
+                  Column(
+                    children: [
+                    Text("Get In Touch",
+                    style: TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),),
+                    Container(
+                      width: 20,
+                      height: 2,
+                      color: Colors.white,
+                    )
+                  ],),
+                ],
+               ),
+               SizedBox(height: 20,),
+              //  ContactPage(),
+              ContactPage()
             ],
           ),
         ),
