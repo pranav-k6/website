@@ -91,8 +91,8 @@ class ContactInfo extends StatelessWidget {
         const SizedBox(height: 20),
         Row(
           children: const [
-            Icon(FontAwesomeIcons.twitter, color: Colors.white),
-            SizedBox(width: 10),
+            // Icon(FontAwesomeIcons.twitter, color: Colors.white),
+            // SizedBox(width: 10),
             Icon(FontAwesomeIcons.linkedin, color: Colors.white),
             SizedBox(width: 10),
             Icon(FontAwesomeIcons.github, color: Colors.white),

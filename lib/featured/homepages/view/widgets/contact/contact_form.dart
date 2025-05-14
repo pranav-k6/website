@@ -80,9 +80,10 @@ class ContactForm extends StatelessWidget {
           decoration: inputDecoration.copyWith(hintText: 'YOUR MESSAGE'),
         ),
         const SizedBox(height: 20),
+        
         ElevatedButton.icon(
           onPressed: () {
-            // Submit logic here
+            
           },
           icon: const Icon(Icons.send),
           label: const Text('SEND MESSAGE'),
