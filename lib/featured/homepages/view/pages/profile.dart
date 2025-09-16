@@ -15,23 +15,7 @@ class Profile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 17, 23, 28),
-      // appBar: AppBar(
-      //   backgroundColor: Colors.black,
-      //   actions: [
-      //     Padding(
-      //       padding: const EdgeInsets.symmetric(horizontal: 16.0),
-      //       child: Row(
-      //         children: [
-      //           Text('data', style: TextStyle(color: secondaryclr)),
-      //           const SizedBox(width: 16),
-      //           Text('data', style: TextStyle(color: secondaryclr)),
-      //           const SizedBox(width: 16),
-      //           Text('data', style: TextStyle(color: secondaryclr)),
-      //         ],
-      //       ),
-      //     ),
-      //   ],
-      // ),
+      
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: SingleChildScrollView(
